@@ -1,0 +1,14 @@
+#!/usr/bin/expect -f
+  
+set DIR [exec ~/ACG/EXP_CALL_DIR.sh]
+set GITHUB_TOKEN [exec ~/ACG/EXP_CALL_TOKEN.sh]
+  
+puts "DIR : $DIR"
+puts "TOKEN : $GITHUB_TOKEN"
+  
+spawn ~/ACG/EXP_CALL_RECLONE.sh
+
+expect "Password for " {
+ send -raw "$GITHUB_TOKEN\r"
+}
+#expect eof
