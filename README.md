@@ -4,6 +4,7 @@ ACG 서비스에 가입한 유저들의 CSV데이터를 자동으로 커밋해�
 유저데이터 및 토큰정보 삭제된 전체공개용 코드임
 
  ### [[https://prod.hyunn.shop/]]
+### [PPT자료](https://docs.google.com/presentation/d/1SwTtjPmRu_-K8BIRhXG298PkwFupW2K0/edit?usp=sharing&ouid=103204687067264269924&rtpof=true&sd=true)
 
 ### DB 정보
 1️⃣ **USER_INFO** : `/home/ubuntu/ACG/users_2023-11-03-07-41-31.csv`
